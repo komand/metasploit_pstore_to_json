@@ -33,7 +33,6 @@ store.transaction(false) do
   end
 end
 
-puts "Parsed #{items.size} Metasploit modules"
 # Checks if metasploit.json exist if so delete
 File.delete("metasploit.json") if File.exist?("metasploit.json")
 # Adds an item from items
